@@ -1,6 +1,6 @@
 from selenium import webdriver
 driver=webdriver.Chrome()
-driver.get("https://www.amazon.com/")
+driver.get("https://www.ebay.com/")
 
 #print the current webpage title
 print(driver.title)
@@ -33,9 +33,7 @@ driver.refresh()
 driver.save_screenshot("amazon.png")
 
 # navigate farward or browser farward button
-driver.forward()
+driver.forward
 
-#print html source code of the page
-print driver.page_source.encode('utf-8')
 # close the browser
 driver.close()
