@@ -33,7 +33,7 @@ driver.refresh()
 driver.save_screenshot("amazon.png")
 
 # navigate farward or browser farward button
-driver.forward
+driver.forward()
 
 # close the browser
 driver.close()
